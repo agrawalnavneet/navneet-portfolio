@@ -57,7 +57,7 @@ export const skills = [
       {
         name: "Angular Js",
         image:
-          "/Users/navneetagarwal/Downloads/angular.png"
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRKvWN8Z5BDJpeYiLQ9s2QoTrH800lNQyfWQ&s"
       },
       {
         name: "HTML",

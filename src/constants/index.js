@@ -20,5 +20,7 @@ export const NAV_LINKS = [
   { name: "Projects", href: "#Projects" },
   { name: "Education", href: "#Education" },
   { name: "Contact", href: "#Contact" },
-    { name: " TechProfiles", href: "#TechProfiles" },
+    { name: " TechProfiles", href: "# TechProfiles" },
 ]; 
+
+export default Projects;

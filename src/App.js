@@ -7,7 +7,7 @@ import Skills from "./components/sections/Skills.jsx";
 import Experience from "./components/sections/Experience.jsx";
 import Education from "./components/sections/Eduaction.jsx";
 import Footer from "./components/sections/Footer.jsx";
-import ProjectViewer from "./components/sections/ProjectViewer.jsx";
+import Projects from "./components/sections/Projects.jsx";
 import Achievements from "./components/sections/Achievements.jsx";
 import Certificates from "./components/sections/Certificates.jsx";
 import Techprofiles from "./components/sections/Techprofiles.jsx";
@@ -51,17 +51,11 @@ function App() {
               <Experience />
             </Wrapper>
 
-            <ProjectViewer
-              projects={[
-                { title: "Aviatours", url: "https://aviatours.com.au/" },
-                { title: "RahulClassroom", url: "https://rahulclassroom.in/" },
-                { title: "My Portfolio", url: "https://flipzonto.com/" },
-              ]}
-            />
+           
 
             <Achievements />
             <Techprofiles/>
-
+<Projects/>
             <Certificates />
 
             <Wrapper>
